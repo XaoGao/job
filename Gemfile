@@ -14,6 +14,8 @@ gem "jbuilder"
 gem "redis"
 gem "kredis"
 gem "bootsnap", require: false
+gem "devise", "~> 4.9", ">= 4.9.4"
+gem "slim-rails", "~> 3.6", ">= 3.6.3"
 
 group :development, :test do
   gem "debug", platforms: %i[mri windows]
